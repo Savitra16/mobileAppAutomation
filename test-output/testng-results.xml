@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="13" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-06T22:50:26 IST" name="Listeners Tests" finished-at="2024-05-06T22:51:49 IST" duration-ms="83352">
+    <groups>
+    </groups>
+    <test started-at="2024-05-06T22:50:26 IST" name="Sub-Tests" finished-at="2024-05-06T22:51:49 IST" duration-ms="83352">
+      <class name="testcases.LandingPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.LandingPageTest@1573f9fc]" started-at="2024-05-06T22:50:15 IST" name="beforeSuite" finished-at="2024-05-06T22:50:26 IST" duration-ms="11276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="before()[pri:0, instance:testcases.LandingPageTest@1573f9fc]" started-at="2024-05-06T22:50:26 IST" name="before" finished-at="2024-05-06T22:50:26 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="verifyLandingPage()[pri:1, instance:testcases.LandingPageTest@1573f9fc]" started-at="2024-05-06T22:50:26 IST" name="verifyLandingPage" finished-at="2024-05-06T22:50:29 IST" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLandingPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.LandingPageTest@1573f9fc]" started-at="2024-05-06T22:50:29 IST" name="afterMethod" finished-at="2024-05-06T22:50:29 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLandingPage status=SUCCESS method=LandingPageTest.verifyLandingPage()[pri:1, instance:testcases.LandingPageTest@1573f9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyGetStarted()[pri:2, instance:testcases.LandingPageTest@1573f9fc]" started-at="2024-05-06T22:50:29 IST" name="verifyGetStarted" finished-at="2024-05-06T22:50:31 IST" duration-ms="2291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetStarted -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.LandingPageTest@1573f9fc]" started-at="2024-05-06T22:50:31 IST" name="afterMethod" finished-at="2024-05-06T22:50:31 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGetStarted status=SUCCESS method=LandingPageTest.verifyGetStarted()[pri:2, instance:testcases.LandingPageTest@1573f9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="after()[pri:0, instance:testcases.LandingPageTest@1573f9fc]" started-at="2024-05-06T22:50:31 IST" name="after" finished-at="2024-05-06T22:50:32 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="end()[pri:0, instance:testcases.LandingPageTest@1573f9fc]" started-at="2024-05-06T22:51:49 IST" name="end" finished-at="2024-05-06T22:51:49 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- testcases.LandingPageTest -->
+      <class name="testcases.LandingtoHomepageTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:50:32 IST" name="before" finished-at="2024-05-06T22:50:32 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="verifyRegionChangeFunctionality()[pri:1, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:50:32 IST" name="verifyRegionChangeFunctionality" finished-at="2024-05-06T22:50:46 IST" duration-ms="13422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegionChangeFunctionality -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:50:46 IST" name="afterMethod" finished-at="2024-05-06T22:50:46 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegionChangeFunctionality status=SUCCESS method=LandingtoHomepageTest.verifyRegionChangeFunctionality()[pri:1, instance:testcases.LandingtoHomepageTest@3fc2959f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyPrivacyFunctionality()[pri:2, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:50:46 IST" name="verifyPrivacyFunctionality" finished-at="2024-05-06T22:51:02 IST" duration-ms="16476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrivacyFunctionality -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:51:02 IST" name="afterMethod" finished-at="2024-05-06T22:51:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPrivacyFunctionality status=SUCCESS method=LandingtoHomepageTest.verifyPrivacyFunctionality()[pri:2, instance:testcases.LandingtoHomepageTest@3fc2959f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyConsentFunctionality()[pri:3, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:51:02 IST" name="verifyConsentFunctionality" finished-at="2024-05-06T22:51:08 IST" duration-ms="5574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConsentFunctionality -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:51:08 IST" name="afterMethod" finished-at="2024-05-06T22:51:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyConsentFunctionality status=SUCCESS method=LandingtoHomepageTest.verifyConsentFunctionality()[pri:3, instance:testcases.LandingtoHomepageTest@3fc2959f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyTermsConditions()[pri:4, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:51:08 IST" name="verifyTermsConditions" finished-at="2024-05-06T22:51:20 IST" duration-ms="11932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsConditions -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:51:20 IST" name="afterMethod" finished-at="2024-05-06T22:51:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTermsConditions status=SUCCESS method=LandingtoHomepageTest.verifyTermsConditions()[pri:4, instance:testcases.LandingtoHomepageTest@3fc2959f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="after()[pri:0, instance:testcases.LandingtoHomepageTest@3fc2959f]" started-at="2024-05-06T22:51:20 IST" name="after" finished-at="2024-05-06T22:51:20 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testcases.LandingtoHomepageTest -->
+      <class name="testcases.NavigateToDevicesTest">
+        <test-method is-config="true" signature="before()[pri:0, instance:testcases.NavigateToDevicesTest@5aa9e4eb]" started-at="2024-05-06T22:51:20 IST" name="before" finished-at="2024-05-06T22:51:20 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="verifyDirigeraHubFunctionality()[pri:1, instance:testcases.NavigateToDevicesTest@5aa9e4eb]" started-at="2024-05-06T22:51:20 IST" name="verifyDirigeraHubFunctionality" finished-at="2024-05-06T22:51:32 IST" duration-ms="12364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDirigeraHubFunctionality -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.NavigateToDevicesTest@5aa9e4eb]" started-at="2024-05-06T22:51:32 IST" name="afterMethod" finished-at="2024-05-06T22:51:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDirigeraHubFunctionality status=SUCCESS method=NavigateToDevicesTest.verifyDirigeraHubFunctionality()[pri:1, instance:testcases.NavigateToDevicesTest@5aa9e4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyConnectionSetup()[pri:2, instance:testcases.NavigateToDevicesTest@5aa9e4eb]" started-at="2024-05-06T22:51:32 IST" name="verifyConnectionSetup" finished-at="2024-05-06T22:51:44 IST" duration-ms="11701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConnectionSetup -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.NavigateToDevicesTest@5aa9e4eb]" started-at="2024-05-06T22:51:44 IST" name="afterMethod" finished-at="2024-05-06T22:51:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyConnectionSetup status=SUCCESS method=NavigateToDevicesTest.verifyConnectionSetup()[pri:2, instance:testcases.NavigateToDevicesTest@5aa9e4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyLookingforNearbyHubFunctionality()[pri:3, instance:testcases.NavigateToDevicesTest@5aa9e4eb]" started-at="2024-05-06T22:51:44 IST" name="verifyLookingforNearbyHubFunctionality" finished-at="2024-05-06T22:51:49 IST" duration-ms="5169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLookingforNearbyHubFunctionality -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.NavigateToDevicesTest@5aa9e4eb]" started-at="2024-05-06T22:51:49 IST" name="afterMethod" finished-at="2024-05-06T22:51:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLookingforNearbyHubFunctionality status=SUCCESS method=NavigateToDevicesTest.verifyLookingforNearbyHubFunctionality()[pri:3, instance:testcases.NavigateToDevicesTest@5aa9e4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="after()[pri:0, instance:testcases.NavigateToDevicesTest@5aa9e4eb]" started-at="2024-05-06T22:51:49 IST" name="after" finished-at="2024-05-06T22:51:49 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testcases.NavigateToDevicesTest -->
+    </test> <!-- Sub-Tests -->
+  </suite> <!-- Listeners Tests -->
+</testng-results>
