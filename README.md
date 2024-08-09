@@ -1,1 +1,1 @@
-Mobile automation testing framework (Android and iOS) - supports both cucumber and testng tests
+Mobile automation testNG framework
