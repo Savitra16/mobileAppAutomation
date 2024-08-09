@@ -33,6 +33,45 @@ APK Setup: The APK file is located in the builds directory, and its path is set 
 Other Settings: The platform is set to Android 13, and UiAutomator2 is used as the automation engine. The app will not reset if it's already installed on the device.
 getOptions(): This method returns the initialized UiAutomator2Options object, ensuring the options are ready to be used in a test.
 
+- Retry and RetryListner Logic
+- The Retry class implements a retry mechanism for TestNG tests, allowing failed tests to be rerun automatically.
+<img width="1348" alt="image" src="https://github.com/user-attachments/assets/acd02273-d0ed-4f0b-8b2e-c47d616c02e3">
+retry(ITestResult result): This method determines if a test should be retried based on the retryCount and maxRetryCount. If the retryCount is less than maxRetryCount, the test is retried, and the retry count is incremented. It returns true if the test should be retried, otherwise false.
+
+- The RetryListener class is designed to automatically apply a retry mechanism to TestNG tests by implementing the IAnnotationTransformer interface.
+<img width="1129" alt="image" src="https://github.com/user-attachments/assets/7daced2d-d452-4086-9f0c-a616a4d5a8d3">
+
+- TestListner logic:
+The TestListener class implements the ITestListener interface in TestNG to enhance test result handling, specifically focusing on test retries, skipped tests, and capturing screenshots on test failures.
+<img width="1293" alt="image" src="https://github.com/user-attachments/assets/b33b12ce-1490-4d3d-96ec-10359503ded1">
+
+- Utils Class:
+<img width="1192" alt="image" src="https://github.com/user-attachments/assets/d1ad7331-2936-4d10-a13b-1fc22d6d0fca">
+
+This code provides utility functions for scrolling and swiping actions on a mobile or web application using Selenium WebDriver. Here's a summary of its functionality:
+
+Swipe Method:
+
+swipe(Point start, Point end, Duration duration): Simulates a swipe gesture on the screen from a starting point to an ending point over a specified duration. It uses PointerInput and Sequence from Selenium's interactions package to perform this action.
+Scroll Method:
+
+scroll(String pageDirection, double scrollRatio): Scrolls the page in a specified direction (UP, DOWN, LEFT, or RIGHT) based on the given scrollRatio.
+scrollRatio determines the distance of the scroll relative to the screen's dimensions (0 to 1). For example, 0.5 scrolls half the screen height or width.
+It calculates the scroll bounds based on the screen size and performs the swipe action accordingly.
+Scroll Down Until Element Found:
+
+scrollDownTill(By elementToFind): Continuously scrolls down until a specified element (elementToFind) is found. It uses a while loop to keep scrolling and checking for the element, with a 2-second delay between scrolls.
+Scroll Up Until Element Found:
+
+scrollUpTill(By elementToFind): Similar to the scroll-down method but scrolls upwards until the specified element is found.
+
+-
+
+
+
+
+
+
 
 
 
