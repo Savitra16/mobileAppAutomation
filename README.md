@@ -65,7 +65,52 @@ Scroll Up Until Element Found:
 
 scrollUpTill(By elementToFind): Similar to the scroll-down method but scrolls upwards until the specified element is found.
 
--
+- Base Class
+<img width="1156" alt="image" src="https://github.com/user-attachments/assets/1204e6f0-79e1-4c4c-8beb-ec96e7fe5538">
+This code defines a Java class BasePage that serves as a parent class for all page classes in a mobile application testing framework using Appium and Selenium for Android devices. Here's a summary of the key functionalities:
+
+- Initialization and Configuration:
+The BasePage constructor initializes the driver and loads properties from a configuration file (qa.properties).
+The getProperties method reads properties to determine the operating system and device type.
+
+The initDriver_v8 method initializes the Android driver if the OS is specified as "ANDROID".
+Utility Methods:
+
+- Element Locators: Methods like getByElement and getMobileByElement return element locators based on the platform.
+- Screenshot Capture: The getScreenshot method captures a screenshot and saves it to a specified directory.
+- Element Interactions: Methods like sendKeys, click, getText, and getAttributeValue interact with elements on the page.
+- Page Navigation: navigateBack navigates back in the app.
+- Element Verification: isPageLoaded and isElementPresent check if elements are present on the page.
+- Swipe Actions: Methods like swipeVerticallyBottomToUp and swipeHorizontal perform swipe actions on the screen.
+
+- Swiping and Scrolling:
+swipeVerticallyBottomToUp performs vertical swipes until a specified element at the bottom of the content is found.
+swipeHorizontal and swipeVertical methods are placeholders for horizontal and vertical swiping but are commented out.
+
+Driver Management: The quit method stops the driver and closes the app.
+
+- Setup Test.java :
+<img width="1111" alt="image" src="https://github.com/user-attachments/assets/e3b09751-fff6-4fca-889e-bd8d750d2532">
+The provided code defines a SetupTest class in a TestNG-based test framework. This class is responsible for setting up and tearing down the test environment, as well as managing the reporting of test results. Here's a summary of the key functionalities:
+
+Reporting Setup:
+
+The class uses ExtentReports and ExtentTest from the ExtentReports library to generate and manage test reports.
+The report is saved to a specified file path (report.html) in the src/test/resources/extentreporting directory.
+Test Initialization:
+
+The beforeSuite method is annotated with @BeforeSuite, meaning it runs before any tests in the suite. This method:
+Initializes the ExtentReports object for reporting.
+Instantiates the BasePage class, which initializes the driver for the mobile testing framework.
+Test Teardown:
+
+The end method is annotated with @AfterSuite, meaning it runs after all tests in the suite have completed. This method:
+Flushes the ExtentReports object, ensuring all logged information is written to the report file.
+Closes the ExtentReports object, finalizing the report.
+Purpose:
+
+This SetupTest class is designed to be included in every testng.xml file so that the driver is initialized once for the entire test suite, and reporting is handled consistently across all tests.
+
 
 
 
